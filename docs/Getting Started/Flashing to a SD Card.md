@@ -1,0 +1,57 @@
+## Overview
+
+Armada provides you the option to install entirely to a SD card.
+
+Once it is running, you can optionally install it to internal storage so it boots without the card (see [Install to Internal Storage](./Install to Internal Storage.md)).
+
+## Steps
+1. Flash the Armada image to SD.
+
+!!! note
+
+    Use Balena Etcher to flash the latest `armada-YYYYMMDD.img.gz` image to a
+    64GB or larger SD card (A2 speed for best results).
+
+2. Flash the ROCKNIX ABL for your device.
+
+    - Insert the SD card, boot into Android, and copy the `rocknix_abl` folder to
+      the root of your internal storage.
+
+    - Identify your SoC from [Supported Devices](../Devices/Supported Devices.md) (`SM8550`, `SM8650`, or
+      `SM8750`).
+
+        !!! warning
+
+            Flashing the wrong SoC's ABL can brick the device, so match it
+            carefully.
+
+    - Using your device's built-in "run script as root" tool, browse to your SoC's
+      subfolder (e.g. `rocknix_abl/SM8550`) and run `backup_abl.sh`.
+
+    - Copy the backup (`abl_a.img` and `abl_b.img`, written into your SoC subfolder)
+      to your PC for safekeeping.
+
+    - Run `flash_abl.sh` the same way to flash the new ABL.
+
+3. Boot from SD and set your device model and boot mode.
+
+    - Reboot holding VOL- to enter the ABL menu.
+
+    - In the ABL menu (navigate with VOL-/+, select with POWER):
+
+        - Set your device model
+        - Toggle boot mode to Linux
+        - Choose Start to exit
+
+4. Wait for Steam first-run setup.
+
+    !!! note
+
+        After the intro animation, the display may be black for up to 60 seconds
+        before Steam appears. This is expected on the current SD card boot path.
+
+    Eventually you will see Steam first-run where you can configure your
+    language, timezone, and Wi-Fi. At the end Steam will restart again, and
+    you may see another 60 seconds of black before the login screen appears.
+
+Proceed to [Install to Internal Storage](./Install to Internal Storage.md) if you would like.

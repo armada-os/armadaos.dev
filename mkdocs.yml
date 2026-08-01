@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Armada
+site_url: https://armadaos.dev
+theme:
+  name: material
+  features:
+    - navigation.indexes
+markdown_extensions:
+  - admonition
+
