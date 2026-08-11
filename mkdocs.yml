@@ -1,10 +1,70 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Armada
+site_description: A SteamOS-like Linux distribution for ARM handhelds
 site_url: https://armadaos.dev
+repo_url: https://github.com/armada-os/armada
+repo_name: armada-os/armada
+
 theme:
   name: material
+  language: en
+  logo: assets/images/armada.svg
+  favicon: assets/images/favicon.svg
+  font: false
+  palette:
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
   features:
+    - navigation.tabs
+    - navigation.sections
     - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Flash to an SD Card: Getting Started/Flashing to a SD Card.md
+      - Install to Internal Storage: Getting Started/Install to Internal Storage.md
+      - Updating: Getting Started/Updating.md
+      - Uninstalling and Restoring Android: Getting Started/Uninstalling and Restoring Android.md
+  - Devices:
+      - Supported Devices: Devices/Supported Devices.md
+  - Using Armada:
+      - Overview: Using Armada/index.md
+      - Armada Control: Using Armada/Armada Control.md
+      - Desktop Mode: Using Armada/Desktop Mode.md
+      - Sleep, Shutdown and Battery: Using Armada/Sleep, Shutdown and Battery.md
+  - Troubleshooting:
+      - Known Issues: Troubleshooting/Known Issues.md
+  - Project:
+      - Community: Project/Community.md
+      - Credits: Project/Credits.md
+
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
 
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/armada-os/armada
+      name: Armada on GitHub
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/HdmdSxTD5S
+      name: Join the Armada Discord community
