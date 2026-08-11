@@ -47,6 +47,19 @@
   filter: invert(1);
 }
 
+.md-header__button.md-logo {
+  margin-right: 0;
+  padding-right: 0.2rem;
+}
+
+.md-header__button.md-logo img {
+  transform: translateY(-0.1rem);
+}
+
+.md-header__title {
+  margin-left: 0.35rem;
+}
+
 .md-typeset a:not(.md-button) {
   text-decoration: underline;
   text-decoration-thickness: 0.06rem;
