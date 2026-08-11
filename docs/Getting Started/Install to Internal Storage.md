@@ -5,7 +5,8 @@ internal storage so it boots without the card. Open **Desktop Mode** and launch
 !!! warning
 
     Installing to internal storage repartitions internal storage and can require a
-    PC (`fastboot`) to recover from a failed install. In most cases your Android
+    PC ([`fastboot`](./Uninstalling and Restoring Android.md#install-fastboot)) to
+    recover from a failed install. In most cases your Android
     partition will need to be resized, which will cause a **factory-reset**. 
 
 The installer checks what is already on internal storage and offers:
