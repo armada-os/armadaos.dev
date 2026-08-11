@@ -34,7 +34,14 @@ Once it is running, you can optionally install it to internal storage so it boot
 
 3. Boot from SD and set your device model and boot mode.
 
-    - Reboot holding VOL- to enter the ABL menu.
+    - Reboot holding your device's bootloader key to enter the ABL menu. For most
+      devices, this is VOL-.
+
+        !!! note "AYANEO Pocket DMG"
+
+            Hold the `...` button above the volume wheel instead of VOL-. See the
+            [AYANEO Pocket DMG device page](../Devices/AYANEO/Pocket DMG.md) for
+            device-specific notes.
 
     - In the ABL menu (navigate with VOL-/+, select with POWER):
 
