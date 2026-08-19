@@ -15,8 +15,8 @@ hide:
 Armada brings Steam, FEX, Proton, and a full Linux desktop to supported ARM64
 gaming handhelds.
 
-[Install Armada](Getting%20Started/Flashing%20to%20a%20SD%20Card.md){ .md-button .md-button--primary }
-[Check device support](Devices/Supported%20Devices.md){ .md-button }
+[Install Armada](getting-started/flashing-to-a-sd-card.md){ .md-button .md-button--primary }
+[Check device support](devices/supported-devices.md){ .md-button }
 
 </div>
 
@@ -27,7 +27,7 @@ gaming handhelds.
     device or corrupt your Android partition.
 
     **Over-the-air updates are experimental.** Armada can update itself in
-    place (see [Updating](Getting%20Started/Updating.md)) instead of reflashing,
+    place (see [Updating](getting-started/updating.md)) instead of reflashing,
     but the update path is still being validated. If an update fails,
     reflashing the SD card is the reliable recovery.
 
@@ -45,28 +45,28 @@ gaming handhelds.
     Confirm that your handheld is supported, prepare an SD card, and install
     Armada safely.
 
-    [Read the installation guide](Getting%20Started/Flashing%20to%20a%20SD%20Card.md)
+    [Read the installation guide](getting-started/flashing-to-a-sd-card.md)
 
 -   **Use Armada**
 
     Learn about Armada Control, compatibility settings, power profiles, and
     Desktop Mode.
 
-    [Explore Armada features](Using%20Armada/index.md)
+    [Explore Armada features](using-armada/index.md)
 
 -   **Troubleshoot**
 
     Check current limitations and known workarounds before changing your
     installation.
 
-    [Review known issues](Troubleshooting/Known%20Issues.md)
+    [Review known issues](troubleshooting/known-issues.md)
 
 -   **Join the project**
 
     Find the source on GitHub, connect with the community, and see the projects
     Armada builds upon.
 
-    [Visit the community page](Project/Community.md)
+    [Visit the community page](project/community.md)
 
 </div>
 

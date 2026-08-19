@@ -5,7 +5,7 @@ internal storage so it boots without the card. Open **Desktop Mode** and launch
 !!! warning
 
     Installing to internal storage repartitions internal storage and can require a
-    PC ([`fastboot`](./Uninstalling and Restoring Android.md#install-fastboot)) to
+    PC ([`fastboot`](./uninstalling-and-restoring-android.md#install-fastboot)) to
     recover from a failed install. In most cases your Android
     partition will need to be resized, which will cause a **factory-reset**. 
 
@@ -25,4 +25,4 @@ storage boots before the SD card.
 
 If an install is interrupted, re-run Armada Installer from the SD card to finish.
 If the device will not boot the SD card at all, force it back to the card with
-`fastboot erase ROCKNIX` (see [Uninstall](./Uninstalling and Restoring Android.md) for the full steps).
+`fastboot erase ROCKNIX` (see [Uninstall](./uninstalling-and-restoring-android.md) for the full steps).

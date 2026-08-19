@@ -2,7 +2,7 @@
 
 Armada provides you the option to install entirely to a SD card.
 
-Once it is running, you can optionally install it to internal storage so it boots without the card (see [Install to Internal Storage](./Install to Internal Storage.md)).
+Once it is running, you can optionally install it to internal storage so it boots without the card (see [Install to Internal Storage](./install-to-internal-storage.md)).
 
 ## Steps
 1. Flash the latest `armada-YYYYMMDD.img.gz` image to a 64GB or larger SD card (A2 speed for best results).
@@ -16,7 +16,7 @@ Once it is running, you can optionally install it to internal storage so it boot
     - Insert the SD card, boot into Android, and copy the `rocknix_abl` folder to
       the root of your internal storage.
 
-    - Identify your SoC from [Supported Devices](../Devices/Supported Devices.md) (`SM8550`, `SM8650`, or
+    - Identify your SoC from [Supported Devices](../devices/supported-devices.md) (`SM8550`, `SM8650`, or
       `SM8750`).
 
         !!! warning
@@ -40,7 +40,7 @@ Once it is running, you can optionally install it to internal storage so it boot
         !!! note "AYANEO Pocket DMG"
 
             Hold the `...` button above the volume wheel instead of VOL-. See the
-            [AYANEO Pocket DMG device page](../Devices/AYANEO/Pocket DMG.md) for
+            [AYANEO Pocket DMG device page](../devices/ayaneo/pocket-dmg.md) for
             device-specific notes.
 
     - In the ABL menu (navigate with VOL-/+, select with POWER):
@@ -60,4 +60,4 @@ Once it is running, you can optionally install it to internal storage so it boot
     language, timezone, and Wi-Fi. At the end Steam will restart again, and
     you may see another 60 seconds of black before the login screen appears.
 
-Proceed to [Install to Internal Storage](./Install to Internal Storage.md) if you would like.
+Proceed to [Install to Internal Storage](./install-to-internal-storage.md) if you would like.

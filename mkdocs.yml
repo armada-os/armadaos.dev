@@ -35,32 +35,32 @@ theme:
 nav:
   - Home: index.md
   - Getting Started:
-      - Flash to an SD Card: Getting Started/Flashing to a SD Card.md
-      - Install to Internal Storage: Getting Started/Install to Internal Storage.md
-      - Updating: Getting Started/Updating.md
-      - Uninstalling and Restoring Android: Getting Started/Uninstalling and Restoring Android.md
+      - Flash to an SD Card: getting-started/flashing-to-a-sd-card.md
+      - Install to Internal Storage: getting-started/install-to-internal-storage.md
+      - Updating: getting-started/updating.md
+      - Uninstalling and Restoring Android: getting-started/uninstalling-and-restoring-android.md
   - Devices:
-      - Supported Devices: Devices/Supported Devices.md
+      - Supported Devices: devices/supported-devices.md
       - AYANEO:
-          - Overview: Devices/AYANEO/index.md
-          - Pocket DMG: Devices/AYANEO/Pocket DMG.md
+          - Overview: devices/ayaneo/index.md
+          - Pocket DMG: devices/ayaneo/pocket-dmg.md
       - AYN:
-          - Overview: Devices/AYN/index.md
+          - Overview: devices/ayn/index.md
       - Retroid:
-          - Overview: Devices/Retroid/index.md
+          - Overview: devices/retroid/index.md
       - KONKR:
-          - Overview: Devices/KONKR/index.md
+          - Overview: devices/konkr/index.md
   - Using Armada:
-      - Overview: Using Armada/index.md
-      - Armada Control: Using Armada/Armada Control.md
-      - Desktop Mode: Using Armada/Desktop Mode.md
-      - Sleep, Shutdown and Battery: Using Armada/Sleep, Shutdown and Battery.md
+      - Overview: using-armada/index.md
+      - Armada Control: using-armada/armada-control.md
+      - Desktop Mode: using-armada/desktop-mode.md
+      - Sleep, Shutdown and Battery: using-armada/sleep-shutdown-and-battery.md
   - Troubleshooting:
-      - Frequently Asked Questions: Troubleshooting/Frequently Asked Questions.md
-      - Known Issues: Troubleshooting/Known Issues.md
+      - Frequently Asked Questions: troubleshooting/frequently-asked-questions.md
+      - Known Issues: troubleshooting/known-issues.md
   - Project:
-      - Community: Project/Community.md
-      - Credits: Project/Credits.md
+      - Community: project/community.md
+      - Credits: project/credits.md
 
 markdown_extensions:
   - admonition
