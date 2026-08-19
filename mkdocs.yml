@@ -35,7 +35,7 @@ theme:
 nav:
   - Home: index.md
   - Getting Started:
-      - Flash to an SD Card: getting-started/flashing-to-a-sd-card.md
+      - Flash to an SD Card: getting-started/flashing-to-an-sd-card.md
       - Install to Internal Storage: getting-started/install-to-internal-storage.md
       - Updating: getting-started/updating.md
       - Uninstalling and Restoring Android: getting-started/uninstalling-and-restoring-android.md

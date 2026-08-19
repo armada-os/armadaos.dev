@@ -15,7 +15,7 @@ hide:
 Armada brings Steam, FEX, Proton, and a full Linux desktop to supported ARM64
 gaming handhelds.
 
-[Install Armada](getting-started/flashing-to-a-sd-card.md){ .md-button .md-button--primary }
+[Install Armada](getting-started/flashing-to-an-sd-card.md){ .md-button .md-button--primary }
 [Check device support](devices/supported-devices.md){ .md-button }
 
 </div>
@@ -45,7 +45,7 @@ gaming handhelds.
     Confirm that your handheld is supported, prepare an SD card, and install
     Armada safely.
 
-    [Read the installation guide](getting-started/flashing-to-a-sd-card.md)
+    [Read the installation guide](getting-started/flashing-to-an-sd-card.md)
 
 -   **Use Armada**
 
