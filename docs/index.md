@@ -74,4 +74,4 @@ gaming handhelds.
 
 Armada combines ARM64 Steam, FEX x86 translation, CachyOS Proton 11, a KDE
 desktop, over-the-air updates, and handheld-focused power and fan controls. It
-is built on Fedora bootc with device support from ROCKNIX.
+is built on Fedora bootc with device support derived from ROCKNIX.

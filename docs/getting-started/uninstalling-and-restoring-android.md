@@ -51,7 +51,7 @@ extracted Platform-Tools instead, run the executable from that folder: use
     fastboot erase ROCKNIX
     ```
 
-    Armada's boot partition is named `ROCKNIX` so the ROCKNIX-derived ABL finds it.
+    Armada's boot partition is named `ROCKNIX` for now, it will be changed to `ARMADA` in a future release.
 
 4. **Boot Armada from the SD card.** With the internal boot partition gone,
    reboot with the Armada SD card inserted and it boots from the card.
