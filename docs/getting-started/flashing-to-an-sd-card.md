@@ -7,13 +7,15 @@ Once it is running, you can optionally install it to internal storage so it boot
 ## Steps
 1. Download `armada-YYYYMMDD.img.gz` from the latest [GitHub Release](https://github.com/armada-os/armada/releases/latest)
 
-1. Flash the downloaded image to a 64GB or larger SD card (A2 speed for best results).
+2. Flash the downloaded image to a 64GB or larger SD card (A2 speed for best results).
 
-  !!! note
+    Common flashing tools include:
+    - [Balena Etcher](https://www.balena.io/etcher/)
+    - [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+    - [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
+    - If you're skilled with the command line, `dd` works fine too.
 
-      Common flashing tools include [Balena Etcher](https://www.balena.io/etcher/), [Raspberry Pi Imager](https://www.raspberrypi.com/software/), and [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/). If you're skilled with the command line, `dd` works fine too.
-
-2. Flash the ROCKNIX ABL for your device.
+3. Flash the ROCKNIX ABL for your device.
 
     - Insert the SD card, boot into Android, and copy the `rocknix_abl` folder to
       the root of your internal storage.
@@ -34,7 +36,7 @@ Once it is running, you can optionally install it to internal storage so it boot
 
     - Run `flash_abl.sh` the same way to flash the new ABL.
 
-3. Boot from SD and set your device model and boot mode.
+4. Boot from SD and set your device model and boot mode.
 
     - Reboot holding your device's bootloader key to enter the ABL menu. For most
       devices, this is VOL-.
@@ -51,7 +53,7 @@ Once it is running, you can optionally install it to internal storage so it boot
         - Toggle boot mode to Linux
         - Choose Start to exit
 
-4. Wait for Steam first-run setup.
+5. Wait for Steam first-run setup.
 
     !!! note
 
