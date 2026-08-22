@@ -9,11 +9,9 @@ Once it is running, you can optionally install it to internal storage so it boot
 
 2. Flash the downloaded image to a 64GB or larger SD card (A2 speed for best results).
 
-    Common flashing tools include:
-    - [Balena Etcher](https://www.balena.io/etcher/)
-    - [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
-    - [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
-    - If you're skilled with the command line, `dd` works fine too.
+    !!! note
+
+        Common flashing tools include [Balena Etcher](https://www.balena.io/etcher/), [Raspberry Pi Imager](https://www.raspberrypi.com/software/), and [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/). If you're skilled with the command line, `dd` works fine too.
 
 3. Flash the ROCKNIX ABL for your device.
 
