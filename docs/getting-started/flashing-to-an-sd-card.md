@@ -5,11 +5,13 @@ Armada provides you the option to install entirely to a SD card.
 Once it is running, you can optionally install it to internal storage so it boots without the card (see [Install to Internal Storage](./install-to-internal-storage.md)).
 
 ## Steps
-1. Flash the latest `armada-YYYYMMDD.img.gz` image to a 64GB or larger SD card (A2 speed for best results).
+1. Download `armada-YYYYMMDD.img.gz` from the latest [GitHub Release](https://github.com/armada-os/armada/releases/latest)
 
-!!! note
+1. Flash the downloaded image to a 64GB or larger SD card (A2 speed for best results).
 
-    Common flashing tools include [Balena Etcher](https://www.balena.io/etcher/), [Raspberry Pi Imager](https://www.raspberrypi.com/software/), and [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/). If you're skilled with the command line, `dd` works fine too.
+  !!! note
+
+      Common flashing tools include [Balena Etcher](https://www.balena.io/etcher/), [Raspberry Pi Imager](https://www.raspberrypi.com/software/), and [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/). If you're skilled with the command line, `dd` works fine too.
 
 2. Flash the ROCKNIX ABL for your device.
 
