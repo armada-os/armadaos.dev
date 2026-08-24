@@ -4,7 +4,7 @@ Open the Quick Access Menu and select the Decky tab, then open **Armada Store**.
 
 ## Categories
 
-![Armada Store - Category Page](/assets/images/armada-store/armada-store-categories.jpg)
+![Armada Store - Category Page](../assets/images/armada-store/armada-store-categories.jpg)
 
 There are three categories:
 
@@ -14,11 +14,11 @@ There are three categories:
 
 ## Status
 
-![Armada Store - Entry Status](/assets/images/armada-store/armada-store-entry-status.jpg)
+![Armada Store - Entry Status](../assets/images/armada-store/armada-store-entry-status.jpg)
 
 If an entry has been installed, it will have one of the following statuses:
 
 | Status Icon | Description |
 | --- | --- |
-| ![Armada Store - Installed](/assets/images/armada-store/status-icon-installed.jpg) | Entry has been installed. If this is an application, a non-Steam shortcut was created. |
-| ![Armada Store - Update Available](/assets/images/armada-store/status-icon-update.jpg) | Entry has an update available. |
+| ![Armada Store - Installed](../assets/images/armada-store/status-icon-installed.jpg) | Entry has been installed. If this is an application, a non-Steam shortcut was created. |
+| ![Armada Store - Update Available](../assets/images/armada-store/status-icon-update.jpg) | Entry has an update available. |

@@ -11,7 +11,7 @@
 | [ARMSX2](emulators/armsx2.md) | Sony PlayStation 2 | `ps2` | ✅ |
 | [Azahar Enhanced](emulators/azahar.md) | Nintendo 3DS | `n3ds` | ✅ |
 | [Cemu Enhanced](emulators/cemu.md) | Nintendo Wii U | `wiiu` | ✅ |
-| [Dolphin](emulators/dolphin.md) | Nintendo GameCube<br>Nintendo Wii | `gc`<br>`wii` | ✅ |
+| [Dolphin (GC)](emulators/dolphin-gc.md)<br>[Dolphin (Wii)](emulators/dolphin-wii.md) | Nintendo GameCube<br>Nintendo Wii | `gc`<br>`wii` | ✅ |
 | [DuckStation](emulators/duckstation.md) | Sony PlayStation | `psx` | ✅ |
 | [Flycast](emulators/flycast.md) | Sega Dreamcast | `dreamcast` | ✅ |
 | [melonDS](emulators/melonds.md) | Nintendo DS | `nds` | ✅ |
