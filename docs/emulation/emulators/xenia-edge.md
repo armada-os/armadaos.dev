@@ -15,7 +15,7 @@ Xenia Edge does not require a BIOS file.
 | | |
 | --- | --- |
 | **ROM Folder** | `xbox360` |
-| **ROM Files** | `. .desktop .iso .ISO .sh .xex .XEX .zar .ZAR` |
+| **ROM Files** | `.desktop .iso .ISO .sh .xex .XEX .zar .ZAR` |
 
 ### Emulator
 
