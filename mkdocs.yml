@@ -31,6 +31,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.tooltips
 
 nav:
   - Home: index.md
@@ -53,8 +54,61 @@ nav:
   - Using Armada:
       - Overview: using-armada/index.md
       - Armada Control: using-armada/armada-control.md
+      - Armada Store: using-armada/armada-store.md
       - Desktop Mode: using-armada/desktop-mode.md
       - Sleep, Shutdown and Battery: using-armada/sleep-shutdown-and-battery.md
+  - Emulation:
+      - Introduction: emulation/index.md
+      - ES-DE: emulation/es-de.md
+      - Emulators: emulation/emulators.md
+      - Systems:
+          - Multi-Platform:
+              - RetroArch: emulation/emulators/retroarch.md
+              - ScummVM: emulation/emulators/scummvm.md
+          - Microsoft Xbox:
+              - xemu: emulation/emulators/xemu.md
+          - Microsoft Xbox 360:
+              - Xenia Edge: emulation/emulators/xenia-edge.md
+          - NEC PC Engine / TG-16:
+              - RetroArch (pce/tg16): emulation/emulators/retroarch/pce-tg16.md
+          - Nintendo 3DS:
+              - Azahar: emulation/emulators/azahar.md
+          - Nintendo DS:
+              - melonDS: emulation/emulators/melonds.md
+          - Nintendo Game Boy:
+              - RetroArch (gb/gbc): emulation/emulators/retroarch/gameboy.md
+          - Nintendo Game Boy Advance:
+              - RetroArch (gba): emulation/emulators/retroarch/gba.md
+          - Nintendo GameCube:
+              - Dolphin: emulation/emulators/dolphin-gc.md
+          - Nintendo NES:
+              - RetroArch (nes): emulation/emulators/retroarch/nes.md
+          - Nintendo SNES:
+              - RetroArch (sfc/snes/snesna): emulation/emulators/retroarch/snes.md
+          - Nintendo Wii:
+              - Dolphin: emulation/emulators/dolphin-wii.md
+          - Nintendo Wii U:
+              - Cemu: emulation/emulators/cemu.md
+          - Sega Dreamcast:
+              - Flycast: emulation/emulators/flycast.md
+              - RetroArch (dreamcast): emulation/emulators/retroarch/dreamcast.md
+          - Sega Game Gear:
+              - RetroArch (gamegear): emulation/emulators/retroarch/gamegear.md
+          - Sega Genesis / Mega Drive:
+              - RetroArch (genesis/megadrive): emulation/emulators/retroarch/genesis.md
+          - Sega Master System:
+              - RetroArch (mastersystem): emulation/emulators/retroarch/mastersystem.md
+          - Sony PlayStation:
+              - DuckStation: emulation/emulators/duckstation.md
+              - RetroArch (psx): emulation/emulators/retroarch/playstation.md
+          - Sony PlayStation 2:
+              - ARMSX2: emulation/emulators/armsx2.md
+          - Sony PlayStation 3:
+              - RPCS3: emulation/emulators/rpcs3.md
+          - Sony PlayStation Portable:
+              - PPSSPP: emulation/emulators/ppsspp.md
+          - Sony PlayStation Vita:
+              - Vita3K: emulation/emulators/vita3k.md
   - Troubleshooting:
       - Frequently Asked Questions: troubleshooting/frequently-asked-questions.md
       - Known Issues: troubleshooting/known-issues.md
@@ -63,9 +117,13 @@ nav:
       - Credits: project/credits.md
 
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - md_in_html
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
 
 extra_css:
   - stylesheets/extra.css
@@ -78,3 +136,6 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/HdmdSxTD5S
       name: Join the Armada Discord community
+
+watch:
+  - includes

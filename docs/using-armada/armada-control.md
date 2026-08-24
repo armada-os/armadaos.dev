@@ -1,5 +1,4 @@
-Press the **Steam** button to open the Quick Access Menu (on AYANEO devices the
-QAM is unmapped, so use **Home + A**), then open **Armada Control**. It has three
+Open the Quick Access Menu and select the Decky tab, then open **Armada Control**. It has three
 tabs:
 
 - **Power.** Configure the **Eco**, **Balanced**, and **Performance** profiles.

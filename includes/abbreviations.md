@@ -1,0 +1,3 @@
+*[QAM]: The right side menu in Steam. Press the <strong>Menu</strong> button (<strong>Back</strong> button for AYN/Retroid, <strong>Home</strong> + <strong>A</strong> button for AYANEO) to open.
+*[Quick Access Menu]: The right side menu in Steam. Press the <strong>Menu</strong> button (<strong>Back</strong> button for AYN/Retroid, <strong>Home</strong> + <strong>A</strong> button for AYANEO) to open.
+*[Steam menu]: The left side menu in Steam. Press the <strong>Steam</strong> button to open.
