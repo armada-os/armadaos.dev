@@ -56,7 +56,10 @@ nav:
       - Armada Control: using-armada/armada-control.md
       - Armada Store: using-armada/armada-store.md
       - Desktop Mode: using-armada/desktop-mode.md
-      - Sleep, Shutdown and Battery: using-armada/sleep-shutdown-and-battery.md
+      - Sleep, Shutdown, and Battery: using-armada/sleep-shutdown-and-battery.md
+  - Compatibility:
+      - Compatibility: compatibility/index.md
+      - Environment Variables: compatibility/environment-variables.md
   - Emulation:
       - Introduction: emulation/index.md
       - ES-DE: emulation/es-de.md
