@@ -1,15 +1,11 @@
 Once Armada is running from the SD card, you can install it to the device's
-internal storage so it boots without the card. Open **Desktop Mode** and launch
-**Armada Installer** from the **System** menu.
+internal storage so it boots without the card.
 
-!!! warning
+## Installation
 
-    Installing to internal storage repartitions internal storage and can require a
-    PC ([`fastboot`](./uninstalling-and-restoring-android.md#install-fastboot)) to
-    recover from a failed install. In most cases your Android
-    partition will need to be resized, which will cause a **factory-reset**. 
+Open **Desktop Mode** and launch **Armada Installer** from the **System** menu.
 
-The installer checks what is already on internal storage and offers:
+The installer checks what is already on the internal storage and offers:
 
 - **Install alongside Android** (fresh device): choose how much storage Android
   keeps; Armada takes the rest. This **factory-resets Android** (you lose Android
@@ -20,9 +16,22 @@ The installer checks what is already on internal storage and offers:
 - **Remove and restore Android**: erase the Armada/ROCKNIX install and give the
   whole disk back to Android (Android factory-resets on its next boot).
 
-When it finishes, **power off, remove the SD card, then power on.** Internal
-storage boots before the SD card.
+When it finishes, **power off and remove the SD card.**
 
-If an install is interrupted, re-run Armada Installer from the SD card to finish.
-If the device will not boot the SD card at all, force it back to the card with
-`fastboot erase ROCKNIX` (see [Uninstall](./uninstalling-and-restoring-android.md) for the full steps).
+## Check Boot Source
+
+To ensure your device boots from internal storage, enter the ROCKNIX ABL by holding **VOL-** as the device powers on.
+
+Once in the ABL, look for the **Boot source** option and make sure it is set to **Internal**.
+
+![ROCKNIX ABL - Boot Source](../assets/images/getting-started/abl-switch-boot-source.jpg){ width="300" }
+
+If it says anything other than **Internal**, use **VOL-** and **VOL+** until the **Switch boot source** option is selected, then press the **POWER** button to toggle the boot source.
+
+## Recovering a Failed Installation
+
+If an installation is interrupted, rerun Armada Installer from the SD card to finish it.
+
+If the device will not boot the internal installation, enter the ROCKNIX ABL and change the **Boot source** to **SDCard** to attempt the installation from the SD card.
+
+If you want to restore the full Android user data partition, see [Uninstalling and Restoring Android](./uninstalling-and-restoring-android.md).
