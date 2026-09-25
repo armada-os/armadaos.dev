@@ -26,13 +26,28 @@ Once it is running, you can optionally install it to internal storage so it boot
             Flashing the wrong SoC's ABL can brick the device, so match it
             carefully.
 
-    - Using your device's built-in "run script as root" tool, browse to your SoC's
-      subfolder (e.g. `rocknix_abl/SM8550`) and run `backup_abl.sh`.
+    - Open **Android Settings** and find your device's built-in root script tool.
+      On Retroid devices, the path is **Handheld Settings** > **Advanced** >
+      **Run script as Root**.
+
+        ![The Run script as Root option in Android's Handheld Settings on a Retroid Pocket Nova](../assets/images/getting-started/android-run-script-as-root.png){ width="600" }
+
+        !!! note
+
+            Menu names vary by manufacturer. Look in your device-specific settings
+            for an option named **Run script as Root**, **Root Script**, or similar.
+
+            *Thanks Bob*{ .root-script-easter-egg }
+
+    - Choose the option to select a script, browse to your SoC's subfolder on
+      internal storage (for example, `rocknix_abl/SM8550`), and select
+      `backup_abl.sh`.
 
     - Copy the backup (`abl_a.img` and `abl_b.img`, written into your SoC subfolder)
       to your PC for safekeeping.
 
-    - Run `flash_abl.sh` the same way to flash the new ABL.
+    - Return to the root script tool and select `flash_abl.sh` from the same
+      subfolder to flash the new ABL.
 
 4. Boot from SD and set your device model and boot mode.
 
