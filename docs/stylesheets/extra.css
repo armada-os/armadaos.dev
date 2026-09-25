@@ -170,6 +170,13 @@ body:has(.armada-hero) .md-content {
   border-color: var(--armada-warning-light);
 }
 
+.md-typeset .root-script-easter-egg {
+  color: var(--md-default-fg-color--lightest);
+  display: block;
+  font-size: 0.7em;
+  text-align: right;
+}
+
 [data-md-color-scheme="slate"] .md-typeset .admonition.warning {
   border-color: var(--armada-warning-dark);
 }
