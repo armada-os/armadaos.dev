@@ -6,9 +6,7 @@ hide:
 
 <div class="armada-hero" markdown>
 
-![](assets/images/armada.svg){ .armada-hero__mark role="presentation" }
-
-# Armada
+# ![](assets/images/armada.svg){ .armada-hero__mark role="presentation" } Armada
 
 ## SteamOS-like Linux for ARM handhelds
 
@@ -20,23 +18,115 @@ gaming handhelds.
 
 </div>
 
-!!! warning "Prototype software — read before installing"
+<ul class="armada-features" role="list" markdown="1">
+  <li markdown="1">
+    <div class="armada-feature__icon" aria-hidden="true">:material-controller:</div>
+    <div>
+      <strong>Full SteamOS-like Experience</strong>
+      <p>
+        Boot directly into Game Mode, ready to play. Switch to a full KDE desktop or the
+        touch-friendly Plasma Mobile interface whenever you need it.
+      </p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="armada-feature__icon" aria-hidden="true">:material-speedometer:</div>
+    <div>
+      <strong>Top Tier Performance</strong>
+      <p>
+        Tuned for your handheld out of the box, with control over CPU and GPU clocks,
+        core pinning, fan curves, and more.
+      </p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="armada-feature__icon" aria-hidden="true">:material-sleep:</div>
+    <div>
+      <strong>Optimized Sleep and Resume</strong>
+      <p>
+        Keep games suspended with minimal battery drain, then wake your handheld and
+        pick up where you left off.
+      </p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="armada-feature__icon" aria-hidden="true">:material-view-grid-plus-outline:</div>
+    <div>
+      <strong>Support for Your Favorite Handhelds</strong>
+      <p>
+        More than 25 handhelds from AYN, Retroid, and AYANEO are supported and tested.
+      </p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="armada-feature__icon" aria-hidden="true">:material-monitor-multiple:</div>
+    <div>
+      <strong>Dual Screen Experience</strong>
+      <p>
+        Use both screens in desktop mode, or run Plasma Mobile and dual screen emulators
+        in Game Mode.
+      </p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="armada-feature__icon" aria-hidden="true">:material-brightness-7:</div>
+    <div>
+      <strong>HDR Gaming</strong>
+      <p>
+        Play supported games in HDR on a growing range of devices.
+      </p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="armada-feature__icon" aria-hidden="true">:material-monitor:</div>
+    <div>
+      <strong>External Monitor Support</strong>
+      <p>
+        Connect a monitor over USB-C and play on the big screen.
+      </p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="armada-feature__icon" aria-hidden="true">:material-store:</div>
+    <div>
+      <strong>Armada Store</strong>
+      <p>
+        Install emulators and apps without leaving Game Mode.
+      </p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="armada-feature__icon" aria-hidden="true">:material-android:</div>
+    <div>
+      <strong>Android Apps</strong>
+      <p>
+        Run Android apps through preinstalled Waydroid, with support for your handheld's
+        controls.
+      </p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="armada-feature__icon" aria-hidden="true">:material-source-branch:</div>
+    <div>
+      <strong>Dual Boot</strong>
+      <p>
+        Run Armada from an SD card or install it alongside Android on internal storage.
+      </p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="armada-feature__icon" aria-hidden="true">:material-update:</div>
+    <div>
+      <strong>Reliable Updates and Easy Recovery</strong>
+      <p>
+        Update Armada through Steam and roll back to a previous version if something
+        goes wrong.
+      </p>
+    </div>
+  </li>
+</ul>
 
-    **Use Armada at your own risk.** Armada is under active development and is
-    not stable. Booting it requires flashing an ABL, which could brick your
-    device or corrupt your Android partition.
-
-    **Over-the-air updates are experimental.** Armada can update itself in
-    place (see [Updating](getting-started/updating.md)) instead of reflashing,
-    but the update path is still being validated. If an update fails,
-    reflashing the SD card is the reliable recovery.
-
-    **Armada ships with a known default password.** The image ships with user
-    `armada` and password `armada`. SSH is disabled by default, but if you
-    enable it from Armada Control, anyone on your network can log in until you
-    change the password.
-
-## Find your way
+## Explore Further
 
 <div class="grid cards" markdown>
 
