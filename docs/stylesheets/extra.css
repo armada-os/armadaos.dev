@@ -122,12 +122,13 @@
   max-width: 42rem;
 }
 
-.armada-hero__mark {
+.md-typeset .armada-hero__mark {
   display: block;
   flex-shrink: 0;
-  height: 1.15em;
-  transform: translateY(-0.1em);
-  width: 1.15em;
+  height: 0.9075em;
+  height: 1.21cap;
+  transform: translateY(0.04em);
+  width: auto;
 }
 
 [data-md-color-scheme="slate"] .armada-hero__mark {
@@ -135,10 +136,10 @@
 }
 
 .md-typeset .armada-hero h1 {
-  align-items: center;
+  align-items: baseline;
   color: var(--md-default-fg-color);
   display: flex;
-  gap: 0.2em;
+  gap: 0.25em;
   font-size: clamp(2.4rem, 8vw, 4.5rem);
   font-weight: 700;
   letter-spacing: -0.045em;
