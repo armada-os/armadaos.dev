@@ -217,10 +217,6 @@
   grid-column: 1 / -1;
 }
 
-.md-typeset ul.armada-features > li:first-child strong {
-  font-size: 1.25em;
-}
-
 .md-typeset ul.armada-features > li:first-child p {
   max-width: 32rem;
 }
