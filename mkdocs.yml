@@ -123,6 +123,7 @@ nav:
 
 hooks:
   - hooks/generate_downloads.py
+  - hooks/cache_bust_assets.py
 
 markdown_extensions:
   - abbr
