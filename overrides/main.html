@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block header %}
+<header class="md-header md-header--shadow" data-md-component="header">
+  <div class="md-header__inner md-grid">
+    <label class="md-header__button md-icon" for="__drawer" aria-label="{{ lang.t('nav') }}">
+      {% include ".icons/material/menu.svg" %}
+    </label>
+    {# Material's tab scroll controller expects a separate row below the header. #}
+    {% import "partials/tabs-item.html" as item with context %}
+    <nav class="md-tabs" aria-label="{{ lang.t('tabs') }}">
+      <ul class="md-tabs__list">
+        {% for nav_item in nav.items %}
+          {{ item.render(nav_item) }}
+        {% endfor %}
+      </ul>
+    </nav>
+    {% include "partials/palette.html" %}
+    {% include "partials/javascripts/palette.html" %}
+    <label class="md-header__button md-icon" for="__search" aria-label="{{ lang.t('search') }}">
+      {% include ".icons/material/magnify.svg" %}
+    </label>
+    {% include "partials/search.html" %}
+    {% if config.repo_url %}
+      <div class="md-header__source">
+        {% include "partials/source.html" %}
+      </div>
+    {% endif %}
+  </div>
+</header>
+{% endblock %}
+
+{% block tabs %}{% endblock %}

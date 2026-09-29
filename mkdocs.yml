@@ -7,6 +7,7 @@ repo_name: armada-os/armada
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   logo: assets/images/armada-header.svg
   favicon: assets/images/favicon.svg
@@ -14,14 +15,8 @@ theme:
   palette:
     - scheme: slate
       primary: black
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
     - scheme: default
       primary: black
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
   features:
     - navigation.tabs
     - navigation.sections
@@ -140,9 +135,6 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
 
-extra_javascript:
-  - scripts/main.js
-
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -154,3 +146,4 @@ extra:
 
 watch:
   - includes
+  - overrides
