@@ -206,6 +206,19 @@
   margin: 0.45rem 0.45rem 0 0;
 }
 
+.md-typeset .armada-hero .md-button.armada-hero__secondary {
+  background-color: transparent;
+  border-color: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .armada-hero .md-button.armada-hero__secondary:hover,
+.md-typeset .armada-hero .md-button.armada-hero__secondary:focus {
+  background-color: transparent;
+  border-color: var(--md-default-fg-color--light);
+  color: var(--md-default-fg-color);
+}
+
 .md-typeset ul.armada-features {
   display: grid;
   gap: 0.8rem;
@@ -295,6 +308,80 @@ body:has(.armada-hero) .md-content {
 
 [data-md-color-scheme="slate"] .md-typeset .admonition.warning {
   border-color: var(--armada-warning-dark);
+}
+
+.md-typeset ul.armada-videos {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  list-style: none;
+  margin: 1.5rem 0 2.5rem;
+  padding: 0;
+}
+
+.md-typeset ul.armada-videos > li {
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  overflow: hidden;
+}
+
+.md-typeset .armada-videos a {
+  color: var(--md-default-fg-color);
+  display: block;
+  text-decoration: none;
+}
+
+.md-typeset .armada-videos img {
+  aspect-ratio: 16 / 9;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.md-typeset .armada-videos__title {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1.35;
+  overflow: hidden;
+  padding: 0.7rem 0.8rem 0;
+}
+
+.md-typeset .armada-videos a:hover .armada-videos__title {
+  text-decoration: underline;
+}
+
+.md-typeset .armada-videos__meta {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.85em;
+  margin-top: auto;
+  padding: 0.4rem 0.8rem 0.8rem;
+}
+
+.md-typeset a.armada-videos__channel {
+  color: inherit;
+  display: inline;
+}
+
+.md-typeset a.armada-videos__channel:hover {
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset .armada-videos__lang {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+  display: inline-block;
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin-inline-start: 0.3rem;
+  padding: 0 0.35rem;
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 44.984375em) {

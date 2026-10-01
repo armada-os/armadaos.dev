@@ -115,9 +115,11 @@ nav:
   - Project:
       - Community: project/community.md
       - Credits: project/credits.md
+      - Videos: project/videos/index.md
 
 hooks:
   - hooks/generate_downloads.py
+  - hooks/generate_videos.py
   - hooks/cache_bust_assets.py
 
 markdown_extensions:
@@ -135,6 +137,9 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/videos.js
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -145,5 +150,6 @@ extra:
       name: Join the Armada Discord community
 
 watch:
+  - data
   - includes
   - overrides
