@@ -46,7 +46,7 @@ def _card(video):
 
 
 def on_page_markdown(markdown, page, config, files):
-    if page.file.src_uri != "project/videos/index.md":
+    if page.file.src_uri != "project/videos.md":
         return markdown
 
     videos = json.loads(DATA_PATH.read_text(encoding="utf-8"))

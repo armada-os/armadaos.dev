@@ -115,7 +115,7 @@ nav:
   - Project:
       - Community: project/community.md
       - Credits: project/credits.md
-      - Videos: project/videos/index.md
+      - Videos: project/videos.md
 
 hooks:
   - hooks/generate_downloads.py
