@@ -384,6 +384,25 @@ body:has(.armada-hero) .md-content {
   white-space: nowrap;
 }
 
+.armada-devices .md-typeset__table {
+  display: block;
+}
+
+.armada-devices table:not([class]) {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  min-width: 32rem;
+}
+
+.armada-devices th {
+  width: 20%;
+}
+
+.armada-devices th:first-child {
+  width: 40%;
+}
+
 @media screen and (max-width: 44.984375em) {
   .md-typeset ul.armada-features {
     grid-template-columns: 1fr;

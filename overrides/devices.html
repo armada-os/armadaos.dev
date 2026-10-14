@@ -1,0 +1,18 @@
+{% extends "main.html" %}
+
+{% block content %}
+  <div class="armada-devices">
+    {{ super() }}
+  </div>
+{% endblock %}
+
+{% block site_nav %}
+  {% set features = features + ["toc.integrate"] %}
+  <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+    <div class="md-sidebar__scrollwrap">
+      <div class="md-sidebar__inner">
+        {% include "partials/nav.html" %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

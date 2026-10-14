@@ -39,15 +39,7 @@ nav:
       - Uninstalling and Restoring Android: getting-started/uninstalling-and-restoring-android.md
   - Devices:
       - Supported Devices: devices/supported-devices.md
-      - AYANEO:
-          - Overview: devices/ayaneo/index.md
-          - Pocket DMG: devices/ayaneo/pocket-dmg.md
-      - AYN:
-          - Overview: devices/ayn/index.md
-      - Retroid:
-          - Overview: devices/retroid/index.md
-      - KONKR:
-          - Overview: devices/konkr/index.md
+      - Pocket DMG: devices/ayaneo/pocket-dmg.md
   - Using Armada:
       - Overview: using-armada/index.md
       - Armada Control: using-armada/armada-control.md
