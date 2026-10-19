@@ -2,7 +2,7 @@
 
 Thanks for thinking about supporting Armada! There are lots of ways to get involved, and every one of them helps.
 
-## Ways to contribute
+## Ways to Contribute
 
 <div class="grid cards" markdown>
 
@@ -24,9 +24,9 @@ Thanks for thinking about supporting Armada! There are lots of ways to get invol
 
 </div>
 
-## Where donations go
+## Where Donations Go
 
-### Devices for development and testing
+### Devices for Development and Testing
 
 This is our biggest expense by far. We need hardware to support new and existing handhelds, and to explore new categories we're considering like ARM tablets and laptops.
 
@@ -34,13 +34,13 @@ This is our biggest expense by far. We need hardware to support new and existing
 
 Hosting costs are currently low, but donations will help keep the site and downloads online as the project grows.
 
-### The wider ARM Linux community
+### The Wider ARM Linux Community
 
 Armada builds on a lot of other people's work. Some donations may go toward attending conferences or providing hardware to partner projects we work with.
 
 > That's the whole list. If something isn't on this page, don't expect us to spend donations on it.
 
-## Fully transparent
+## Fully Transparent
 
 We take donations and track expenses through [Open Collective](https://opencollective.com/armada). Every dollar that comes in and goes out is public, so you can see exactly where your money went.
 
