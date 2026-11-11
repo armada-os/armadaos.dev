@@ -20,9 +20,13 @@ When it finishes, **power off and remove the SD card.**
 
 ## Check Boot Source
 
-To ensure your device boots from internal storage, enter OpenABL by holding **VOL-** as the device powers on.
+OpenABL should automatically select the correct boot source. If the internal installation Armada does not boot, enter OpenABL by holding **VOL-** as the device powers on.
 
-Once in the ABL, use use **VOL-** and **VOL+** to navigate the entrires, and **POWER** to change options. Ensure **Boot mode** is set to **Linux**, and **Boot source** is set to **Internal**.
+Once in the ABL, use use **VOL-** and **VOL+** to navigate the entrires, and **POWER** to change options. Ensure **Boot mode** is set to **Linux**, and **Boot source** is set to **Auto**.
+
+  ![OpenABL - Switch Boot Source](../assets/images/getting-started/abl-switch-boot-source.jpg){ width="600" }
+
+You can also manually set which installation you'd like to boot: Internal, SD Card, or USB
 
 ## Recovering a Failed Installation
 
